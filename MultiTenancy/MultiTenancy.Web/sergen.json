@@ -1,0 +1,23 @@
+{
+  "RootNamespace": "MultiTenancy",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "dbo.Tenants",
+          "Identifier": "Tenants",
+          "Module": "Administration",
+          "PermissionKey": "Administration:Tenants"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "5.0.24.0"
+  }
+}

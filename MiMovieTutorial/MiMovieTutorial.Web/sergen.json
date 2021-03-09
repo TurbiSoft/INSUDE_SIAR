@@ -1,0 +1,214 @@
+{
+  "RootNamespace": "MiMovieTutorial",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Connections": [
+    {
+      "Key": "campusdata",
+      "Tables": [
+        {
+          "Tablename": "dbo.Alumnos",
+          "Identifier": "Alumnos",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.AlumnosCarreras",
+          "Identifier": "AlumnosCarreras",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.AlumnosFamiliares",
+          "Identifier": "AlumnosFamiliares",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Compania",
+          "Identifier": "Compania",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Dependencias",
+          "Identifier": "Dependencias",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Escuelas",
+          "Identifier": "Escuelas",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Estadocivil",
+          "Identifier": "Estadocivil",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Existencialma",
+          "Identifier": "Existencialma",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Indices",
+          "Identifier": "Indices",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Instituciones",
+          "Identifier": "Instituciones",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Instructores",
+          "Identifier": "Instructores",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.malmacen",
+          "Identifier": "Malmacen",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Materias",
+          "Identifier": "Materias",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.mproduct",
+          "Identifier": "Mproduct",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Nacionalidad",
+          "Identifier": "Nacionalidad",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Pais",
+          "Identifier": "Pais",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Pensum",
+          "Identifier": "Pensum",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Promociones",
+          "Identifier": "Promociones",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Rangos",
+          "Identifier": "Rangos",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Requisitos",
+          "Identifier": "Requisitos",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Roles",
+          "Identifier": "Privilegios",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.ServiciosEstudiantiles",
+          "Identifier": "ServiciosEstudiantiles",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Sexo",
+          "Identifier": "Sexo",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Status",
+          "Identifier": "Status",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.TipoCalificación",
+          "Identifier": "TipoDeCalificacion",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.TituloNivel",
+          "Identifier": "NivelesPorCarrera",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Titulos",
+          "Identifier": "Titulos",
+          "Module": "INSUDE",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    },
+    {
+      "Key": "default",
+      "Tables": [
+        {
+          "Tablename": "dbo.Genre",
+          "Identifier": "Genre",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Movie",
+          "Identifier": "Movie",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.MovieCast",
+          "Identifier": "MovieCast",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.MovieGenres",
+          "Identifier": " MovieGenres",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Person",
+          "Identifier": "Person",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "5.0.24.0"
+  }
+}
